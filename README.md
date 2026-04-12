@@ -12,17 +12,10 @@ I am a passionate Computer Science student focused on building modern web applic
 📈 My growth and learning journey
 📬 Ways to connect with me
 🛠️ Tech Stack
-React (Vite)
-Tailwind CSS
-JavaScript
-HTML & CSS
 🌟 Featured Projects
+🌟 Featured Skills
+🌟 Featured Achievements
 
-(Add your best projects here)
-
-🔹 Project 1 – Short description
-🔹 Project 2 – Short description
-🔹 Project 3 – Short description
 📬 Connect With Me
 GitHub: https://github.com/Pseudocoder000
 LinkedIn: (add your link)
