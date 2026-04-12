@@ -34,7 +34,7 @@ export default function Projects() {
     {
       title: 'Talk-Hub – Real-time Chat Application',
       description: 'Responsive real-time messaging platform with JWT authentication and optimized performance.',
-      image: 'https://via.placeholder.com/400x250/4facfe/ffffff?text=Talk-Hub',
+      image: '/images/Talk-Hub.png',
       tech: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Socket.io', 'Zustand'],
       features: [
         'Secure bi-directional real-time communication',
@@ -48,7 +48,7 @@ export default function Projects() {
     {
       title: 'AI Content Processing System (RAG)',
       description: 'GenAI-based RAG system for processing multiple document formats with unified data understanding.',
-      image: 'https://via.placeholder.com/400x250/43e97b/ffffff?text=AI+System',
+      image: '/images/Rag.png',
       tech: ['Python', 'Flask', 'LangChain', 'Gemini API', 'RAG'],
       features: [
         'Support for 4+ document formats (DOC, XLSX, CSV, JPG)',
