@@ -121,7 +121,7 @@ export default function Hero() {
                 </svg>
               </motion.a>
               <motion.a
-                href="https://linkedin.com/in/jaya-ganguly"
+                href="https://www.linkedin.com/in/jaya-ganguly-3447b8244/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 dark:bg-dark-light bg-gray-100 rounded-lg hover:bg-accent hover:text-white transition-colors"

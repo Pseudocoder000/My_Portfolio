@@ -5,7 +5,7 @@ export default function Footer() {
 
   const footerLinks = [
     { name: 'GitHub', href: 'https://github.com/Pseudocoder000' },
-    { name: 'LinkedIn', href: 'https://linkedin.com/in/jaya-ganguly' },
+    { name: 'LinkedIn', href: 'https://www.linkedin.com/in/jaya-ganguly-3447b8244/' },
     { name: 'Email', href: 'mailto:jayaganguly969@gmail.com' }
   ]
 

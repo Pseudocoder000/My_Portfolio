@@ -205,7 +205,7 @@ export default function Contact() {
             </motion.a>
 
             <motion.a
-              href="https://linkedin.com/in/jaya-ganguly"
+              href="https://www.linkedin.com/in/jaya-ganguly-3447b8244/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-4 dark:bg-dark bg-white rounded-lg border border-gray-200 dark:border-gray-700 hover:border-accent hover:bg-accent hover:text-white transition-colors"
