@@ -42,7 +42,7 @@ export default function Projects() {
         '92% platform performance improvement',
         '95% enhanced security via token encryption'
       ],
-      github: 'https://github.com/Pseudocoder000/Talk-Hub',
+      github: 'https://github.com/Pseudocoder000/talk-hub.git',
       live: '#'
     },
     {
@@ -56,7 +56,7 @@ export default function Projects() {
         'Modular LangChain retrieval pipelines',
         'Context-aware AI responses'
       ],
-      github: '#',
+      github: 'https://github.com/Pseudocoder000/AI-Content-Processing-System.git',
       live: '#'
     }
   ]
