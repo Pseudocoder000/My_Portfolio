@@ -14,7 +14,7 @@ export default function Projects() {
         'AI chatbot using LLMs and LangGraph for financial recommendations',
         'Scalable database design with MongoDB'
       ],
-      github: '#',
+      github: 'https://github.com/Pseudocoder000/Gullak.git',
       live: 'https://gullak-three.vercel.app/'
     },
     {
@@ -28,7 +28,7 @@ export default function Projects() {
         'Reduced emergency response latency by 80%',
         'Scalable backend for continuous sensor data streams'
       ],
-      github: 'https://github.com/Pseudocoder000/Alertra',
+      github: 'https://github.com/Pseudocoder000/Alertra-HackByte.git',
       live: 'https://alertra-hack-byte.vercel.app'
     },
     {
