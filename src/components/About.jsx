@@ -48,21 +48,13 @@ export default function About() {
           {/* Content */}
           <motion.div variants={itemVariants} className="space-y-6 text-center mb-12">
             <p className="text-lg dark:text-gray-300 text-gray-700 leading-relaxed">
-              I'm a Full Stack Developer (MERN) with strong foundations in Data Structures and Algorithms, specializing in building scalable, AI-powered web applications. With hands-on experience from internships and award-winning projects, I've developed a passion for creating solutions that make a real impact.
-            </p>
-
-            <p className="text-lg dark:text-gray-300 text-gray-700 leading-relaxed">
-              Currently pursuing my B.Tech in Computer Science and Information Technology at the University of Engineering and Management, Kolkata, with a CGPA of 8.4/10. I'm committed to continuous learning and staying at the forefront of modern web technologies.
+              Software engineering graduate with strong foundations in Data Structures and Algorithms, Object-Oriented Programming, Design Patterns, and SOLID principles. Experienced in building production-grade full-stack applications and RESTful APIs through internship and project work. Passionate about software craftsmanship, clean code, continuous learning, and creating impactful solutions through collaborative engineering practices.
             </p>
 
             <div className="space-y-3 flex flex-col items-center">
               <div className="flex items-center gap-3">
                 <CheckCircle className="text-accent flex-shrink-0" size={24} />
-                <span className="text-gray-700 dark:text-gray-300">Infosys Springboard Trainee (250+ hours)</span>
-              </div>
-              <div className="flex items-center gap-3">
-                <CheckCircle className="text-accent flex-shrink-0" size={24} />
-                <span className="text-gray-700 dark:text-gray-300">React Developer Intern at Think To Share</span>
+                <span className="text-gray-700 dark:text-gray-300">Software Developer Intern at Think To Share</span>
               </div>
               <div className="flex items-center gap-3">
                 <CheckCircle className="text-accent flex-shrink-0" size={24} />

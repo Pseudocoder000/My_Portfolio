@@ -5,19 +5,20 @@ export default function Skills() {
     {
       category: 'Languages',
       skills: [
-        { name: 'JavaScript', level: 95 },
         { name: 'Java', level: 90 },
-        { name: 'Python', level: 85 },
-        { name: 'C++', level: 75 }
+        { name: 'JavaScript', level: 95 },
+        { name: 'C++', level: 85 }
       ]
     },
     {
       category: 'Frontend',
       skills: [
         { name: 'React.js', level: 95 },
-        { name: 'Tailwind CSS', level: 90 },
-        { name: 'Framer Motion', level: 85 },
-        { name: 'HTML/CSS', level: 95 }
+        { name: 'HTML5', level: 95 },
+        { name: 'CSS3', level: 95 },
+        { name: 'Tailwind CSS', level: 92 },
+        { name: 'Framer Motion', level: 88 },
+        { name: 'Zustand', level: 85 }
       ]
     },
     {
@@ -25,17 +26,53 @@ export default function Skills() {
       skills: [
         { name: 'Node.js', level: 92 },
         { name: 'Express.js', level: 90 },
-        { name: 'MongoDB', level: 90 },
-        { name: 'Flask', level: 80 }
+        { name: 'REST APIs', level: 93 },
+        { name: 'JWT Authentication', level: 88 },
+        { name: 'WebSockets', level: 85 }
       ]
     },
     {
-      category: 'AI/ML & Tools',
+      category: 'Databases',
       skills: [
-        { name: 'RAG & LangChain', level: 85 },
-        { name: 'Prompt Engineering', level: 88 },
-        { name: 'GitHub & Git', level: 90 },
-        { name: 'REST APIs & Postman', level: 92 }
+        { name: 'MongoDB', level: 90 },
+        { name: 'MySQL', level: 88 },
+        { name: 'FAISS', level: 80 }
+      ]
+    },
+    {
+      category: 'AI/GenAI',
+      skills: [
+        { name: 'LangChain', level: 87 },
+        { name: 'LangGraph', level: 85 },
+        { name: 'LLM Integration', level: 88 },
+        { name: 'Prompt Engineering', level: 90 },
+        { name: 'Semantic Search', level: 86 }
+      ]
+    },
+    {
+      category: 'Tools & Methodologies',
+      skills: [
+        { name: 'Git & GitHub', level: 92 },
+        { name: 'Postman', level: 90 },
+        { name: 'Jest', level: 88 },
+        { name: 'VS Code', level: 95 },
+        { name: 'GitHub Copilot', level: 90 }
+      ]
+    },
+    {
+      category: 'Software Engineering',
+      skills: [
+        { name: 'Data Structures & Algorithms', level: 92 },
+        { name: 'Object-Oriented Programming', level: 90 },
+        { name: 'DBMS', level: 88 },
+        { name: 'Operating Systems', level: 85 },
+        { name: 'Design Patterns', level: 88 },
+        { name: 'TDD', level: 85 },
+        { name: 'SOLID Principles', level: 90 },
+        { name: 'Clean Code', level: 90 },
+        { name: 'Software Craftsmanship', level: 88 },
+        { name: 'SDLC', level: 87 },
+        { name: 'CI/CD', level: 85 }
       ]
     }
   ]
@@ -157,21 +194,21 @@ export default function Skills() {
           viewport={{ once: true }}
           className="mt-16 p-8 dark:bg-dark-light bg-gray-50 rounded-xl border border-gray-200 dark:border-gray-700"
         >
-          <h3 className="text-2xl font-bold mb-6 gradient-text">Core Competencies</h3>
+          <h3 className="text-2xl font-bold mb-6 gradient-text">Software Engineering & Tools</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              'Data Structures & Algorithms',
-              'Object-Oriented Programming',
-              'Full-Stack Web Development',
-              'Scalable System Design',
-              'RESTful APIs & WebSockets',
-              'Database Design & Optimization',
-              'Real-time Applications',
-              'AI/ML Integration',
-              'JWT Authentication',
-              'CI/CD Workflows',
-              'Agile Methodologies',
-              'Problem Solving & DSA'
+              'Data Structures and Algorithms',
+              'Object-Oriented Programming (OOP)',
+              'DBMS & Database Design',
+              'Operating Systems',
+              'Design Patterns',
+              'Test-Driven Development (TDD)',
+              'SOLID Principles',
+              'Clean Code',
+              'Software Craftsmanship',
+              'SDLC',
+              'CI/CD',
+              'RESTful APIs & WebSockets'
             ].map((skill, idx) => (
               <motion.div
                 key={idx}

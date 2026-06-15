@@ -4,30 +4,18 @@ import { Briefcase } from 'lucide-react'
 export default function Experience() {
   const experiences = [
     {
-      title: 'Trainee - Infosys Springboard Virtual Internship',
-      company: 'Infosys',
-      period: 'Apr 2025 – Present',
-      duration: 'Ongoing',
-      description: [
-        'Completed 250+ hours of structured training in Java, DSA, DBMS, and NoSQL databases',
-        'Solved 100+ coding problems to strengthen problem-solving and algorithmic thinking',
-        'Gained hands-on exposure to Agile methodologies and SDLC practices'
-      ],
-      skills: ['Java', 'DSA', 'DBMS', 'MongoDB', 'Agile']
-    },
-    {
-      title: 'React Developer Intern',
+      title: 'Software Developer Intern',
       company: 'Think To Share',
       period: 'Aug 2024 – Nov 2024',
       duration: '4 months',
       description: [
-        'Developed and enhanced a production-level web application using React.js, Node.js, Express.js, MongoDB',
-        'Integrated a payment gateway system handling secure transactions for user flows',
-        'Designed scalable transaction models improving data consistency and reducing errors by 70%',
-        'Improved UI responsiveness and engagement using Framer Motion, reducing perceived load time',
-        'Built REST APIs for authentication, payment verification, and dashboard updates'
+        'Service Integration Architecture: Developed a scalable abstraction layer integrating multiple external services, eliminating client-specific logic and improving system modularity.',
+        'Collaborated within a small engineering team to develop production-grade features using React.js, Node.js, Express.js and MongoDB contributing to iterative software delivery cycles.',
+        'Payment Gateway Integration: Engineered a robust payment processing workflow with transaction validation, failure handling, and recovery mechanisms, ensuring reliable real-time processing.',
+        'Reduced transaction-related inconsistencies by 25–30% through transaction data model redesign and schema optimization.',
+        'Collaborated with team members to improve platform scalability by decoupling service integrations and minimizing dependencies on client-specific implementations.'
       ],
-      skills: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Payment Gateway', 'Framer Motion']
+      skills: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Payment Gateway', 'REST APIs']
     }
   ]
 
